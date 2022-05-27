@@ -1,0 +1,28 @@
+.todo {
+  display: flex;
+  margin-top: 30px;
+}
+.todoList {
+  align-items: center;
+  width: 80%;
+  margin-left: 50%;
+  margin-top: 30px;
+}
+.value {
+  margin-right: 500ox;
+}
+.btn {
+  background-color: grey;
+  margin-left: 5%;
+}
+.striked {
+  text-decoration: line-through;
+}
+.count {
+  color: red;
+}
+
+.inp{
+   width:30px;
+   height: 40px;
+}
