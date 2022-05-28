@@ -65,7 +65,7 @@ const Form = () => {
         </div>
 
         <div>
-          <label htmlFor="">Password</label>
+          <label htmlFor="">Password:</label>
           <input
             type="text"
             name="password"
