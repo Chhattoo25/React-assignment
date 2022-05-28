@@ -1,0 +1,32 @@
+select {
+  width: 100px;
+  text-align: center;
+  margin: 10px;
+  color: red;
+  background-color: aqua;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 200;
+}
+input {
+  border-radius: 20px;
+  width: 120px;
+  text-align: center;
+  color: indigo;
+  border-color: blue;
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+button{
+width: 30px;
+font-size: 20px;
+font-weight: 200;
+
+}
+.data>div{
+                     color:red;
+                     background-color: red;
+}
