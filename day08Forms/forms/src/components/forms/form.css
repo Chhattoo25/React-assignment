@@ -5,9 +5,12 @@
                      display: flex;
 }
 
-table th{  
-                     justify-content: space-between;
+
+table th{   margin-right: 30px;
+                     justify-content: space-evenly;
                      color:white;
+                     padding:20px;
+
                      background-color: black;
                      
 
@@ -18,4 +21,7 @@ td{
 }
 tr{
                      background-color: black;
+}
+table>thead>tr>th{
+                     margin-right: 20px;
 }

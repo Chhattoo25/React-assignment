@@ -4,6 +4,7 @@ const FormView = ({value}) => {
                      console.log(value)
   return (
     <>
+    
       <tr>
         <td> {value.name} </td>
         <td> {value.age} </td>

@@ -39,19 +39,7 @@
       "maritial": false,
       "marital": false,
       "id": 4
-    },
-    {
-      "name": "rere",
-      "age": "43",
-      "address": "34",
-      "department": "",
-      "salary": "3434",
-      "maritial": false,
-      "marital": true,
-      "resume": {
-        "0": {}
-      },
-      "id": 5
     }
+  
   ]
 }

@@ -5,7 +5,6 @@ import './form.css'
 const GetFormData = ({data}) => {
   return (
     <div className='table-div'>
-      
       <table className="table table-dark table-striped"
       >
         <thead>

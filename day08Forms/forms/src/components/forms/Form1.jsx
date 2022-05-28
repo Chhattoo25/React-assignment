@@ -74,6 +74,7 @@ else{
 
 
   return <div className="container">
+ 
     <form onSubmit={handleOnSubmit}>
  <div className="input_div">
 <label>Name:</label>
@@ -113,6 +114,7 @@ required></input>
  <div className="input_div">
 <label>Department:</label>
 <select name="department" onChange={handleOnChange} value={formData.department}>
+  <option value=""></option>
   <option value="Food">Food</option>
   <option value="Agriculture">Agriculture</option>
   <option value="Electrician">Electric</option>
