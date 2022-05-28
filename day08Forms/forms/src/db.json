@@ -1,0 +1,57 @@
+{
+  "form_Data": [
+    {
+      "name": "chhatrapal",
+      "age": 22,
+      "address": "MP",
+      "department": "FSWD",
+      "salary": "939939",
+      "mariatal": false,
+      "id": 1
+    },
+    {
+      "name": "chhat",
+      "age": "34",
+      "address": "3ecx",
+      "department": "Agriculture",
+      "salary": "533",
+      "marital": true,
+      "resume": {
+        "0": {}
+      },
+      "id": 2
+    },
+    {
+      "name": "Chhatrapal ahirwar",
+      "address": "Chhatarpur",
+      "age": "4",
+      "department": "Electrician",
+      "salary": "43433",
+      "marital": true,
+      "id": 3
+    },
+    {
+      "name": "Chhatrapal ahirwar",
+      "age": "43",
+      "address": "Chhatarpur",
+      "department": "",
+      "salary": "3434",
+      "maritial": false,
+      "marital": false,
+      "id": 4
+    },
+    {
+      "name": "rere",
+      "age": "43",
+      "address": "34",
+      "department": "",
+      "salary": "3434",
+      "maritial": false,
+      "marital": true,
+      "resume": {
+        "0": {}
+      },
+      "id": 5
+    }
+  ]
+}

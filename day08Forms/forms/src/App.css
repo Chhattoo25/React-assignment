@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+form{
+  display:grid; 
+   width:500px;
+  margin:auto;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 10px;
+  margin-bottom: 10px;
+ 
+  /* height:600px */
+  
+}
+
+.input_div{
+  display: grid;
+  color:rgb(35, 118, 190);
+  margin-top: 10px;
+}
+input{
+  padding-left: 10px;
+  /* border:2px solid red; */
+  text-align: center;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.submitForm {
+  width: 200px;
+  margin: auto;
+  height: 40px;
+ 
+}
+label{
+  font-size: 24px;
+}

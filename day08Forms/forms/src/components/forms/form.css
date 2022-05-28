@@ -1,0 +1,21 @@
+.table-div{
+                     margin-top: 20px;
+                     /* background-color:green; */
+                     justify-content: center;
+                     display: flex;
+}
+
+table th{  
+                     justify-content: space-between;
+                     color:white;
+                     background-color: black;
+                     
+
+}
+
+td{
+                     background-color: grey;
+}
+tr{
+                     background-color: black;
+}
