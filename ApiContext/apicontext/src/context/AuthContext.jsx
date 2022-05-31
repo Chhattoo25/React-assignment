@@ -11,6 +11,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const logout = () => {
+    // call api to get inform session is over
     setIsAuth(false);
   };
   return (

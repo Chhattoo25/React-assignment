@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 
+.light{
+  background-color: white;
+  color:black
+}
+
+.Dark{
+  background-color: black;
+  color: white;
+}

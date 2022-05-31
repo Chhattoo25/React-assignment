@@ -1,9 +1,26 @@
-import React,{Children, createContext} from "react";
-import{useState} from "react"
-export  const CartContext =createContext()
+import React, { createContext, useContext } from "react";
+import { useState } from "react";
+import { AuthContext } from "./AuthContext";
+export const CartContext = createContext();
 
-export const CartProvider =({children})=>{
-const[count,setCount]= useState(0)
+export const CartProvider = ({ children }) => {
+  const { isAuth } = useContext(AuthContext);
+  const [count, setCount] = useState(0);
 
-return <CartContext.Provider>{Children}</CartContext.Provider>
-}
+  const addToCart = () => {
+    setCount(count + 1);
+  };
+  const buy = () => {
+    if (isAuth) {
+      console.log("can buy");
+    } else {
+      console.log("cannot buy without loggin");
+    }
+  };
+
+  return (
+    <CartContext.Provider value={{ count, addToCart, buy }}>
+      {children}
+    </CartContext.Provider>
+  );
+};
