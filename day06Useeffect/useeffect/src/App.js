@@ -6,7 +6,7 @@ import Timerg from './Components/googletimer/Timerg';
 // import Todo from './Components/Todo';
 // import Timer from './Components/Timer';
 // import Stopwatch from './Components/Stopwatch';
-// import Pagination from './Components/pagination';
+import Pagination from './Components/pagination';
 function App() {
 
 
@@ -14,9 +14,9 @@ function App() {
   return (
  <div className='App'>
  {/* <Timer></Timer> */}
- {/* <Pagination></Pagination> */}
+ <Pagination></Pagination>
  {/* <Stopwatch></Stopwatch> */}
- <Timerg></Timerg>
+ {/* <Timerg></Timerg> */}
 
  </div>
   );

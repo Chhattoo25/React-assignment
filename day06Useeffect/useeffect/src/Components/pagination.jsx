@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios"
 import {useEffect, useState} from 'react';
 import style from "./pagination.module.css"
+ 
 
 const Pagination = () => {
   const [todos, setTodos] = useState([]);
@@ -13,6 +14,7 @@ const Pagination = () => {
       .get(`http://localhost:8080/todos?_page=${page}&_limit=${limit}`)
       .then((r) => {
         console.log(r);
+
         setTodos(r.data);
         setTotalCount(Number(r.headers["x-total-count"]));
       });
