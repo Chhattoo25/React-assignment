@@ -7,19 +7,21 @@ import { CartProvider } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
 import { AppProvider } from './context/AppContext';
-
+import{ChakraProvider} from '@chakra-ui/react'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <ThemeProvider>
-    {/* <AuthProvider> */}
+    <AuthProvider>
 
-    {/* <CartProvider> */}
+    <CartProvider>
     <AppProvider>
-    <App />
+    <ChakraProvider>
+      <App />
+    </ChakraProvider>
     </AppProvider>
-    {/* </CartProvider> */}
-    {/* </AuthProvider> */}
+    </CartProvider>
+    </AuthProvider>
     </ThemeProvider>
   </React.StrictMode>
 );

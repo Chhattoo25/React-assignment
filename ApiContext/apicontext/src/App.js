@@ -5,23 +5,23 @@ import Body from './components/Body';
 import { ThemeContext } from './context/ThemeContext';
 import Product from './components/Product';
 import { CartProvider } from './context/CartContext';
-import LoginForm from './Forms/LoginForm';
-import Token from './Forms/Token';
+// import LoginForm from './Forms/LoginForm';
+// import Token from './Forms/Token';
 function App() {
   const{isLight}=useContext(ThemeContext)
   return (
     <div className={`App ${isLight?"Light":"Dark"}`}>
-{/* <CartProvider>
+<CartProvider>
 
 <Navbar></Navbar>
 <Body></Body>
 <Product/>
 
-</CartProvider> */}
+</CartProvider>
 
-
+{/* 
 <LoginForm></LoginForm>
-<Token></Token>
+<Token></Token> */}
 
       
     </div>

@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { ThemeContext } from "../context/ThemeContext";
 import Wishlist from "./Wishlist";
-// import Toggle from "./Toggle";
+import Toggle from "./Toggle";
 
 const Navbar = () => {
   const { isAuth, login, logout } = useContext(AuthContext);
@@ -31,7 +31,7 @@ const Navbar = () => {
 
 
      <Wishlist></Wishlist>
-      {/* <Toggle></Toggle> */}
+      <Toggle toggleTheme={toggleTheme}></Toggle>
     </div>
   );
 };

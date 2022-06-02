@@ -1,29 +1,35 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 // import Switch from 'react-switch';
 
-// export const Toggle = ({ toggleTheme }) => {
-//     const [isDark, setIsDark] = useState(false);
-//     const handleChange = (e) => {
-//         setIsDark(e);
-//         toggleTheme();
-//     };
-//     return (
-//         <div style={{ border: '1px solid #021f34', borderRadius: '20px' }}>
-//             <Switch
-//                 handleDiameter={20}
-//                 width={60}
-//                 height={30}
-//                 checked={isDark}
-//                 onChange={handleChange}
-//                 checkedIcon={<div style={{ padding: '2.5px' }}>🌙</div>}
-//                 uncheckedIcon={<div style={{ padding: '2.5px' }}>🌞</div>}
-//                 onColor='#fff'
-//                 offColor='#fff'
-//                 offHandleColor='#0556f3'
-//                 onHandleColor='#00AAF2'
-//             />
-//         </div>
-//     );
-// };
+import { Switch,Stack } from '@chakra-ui/react'
 
-// export default Toggle
+export const Toggle = ({ toggleTheme }) => {
+    const [isDark, setIsDark] = useState(false);
+    const handleChange = (e) => {
+        setIsDark(e);
+        toggleTheme();
+    };
+    return (
+        <div style={{ border: '1px solid #021f34', borderRadius: '20px' }}>
+      <Switch
+                handleDiameter={20}
+                width={60}
+                height={30}
+                checked={isDark}
+                onChange={handleChange}
+                checkedIcon={<div style={{ padding: '2.5px' }}>🌙</div>}
+                uncheckedIcon={<div style={{ padding: '2.5px' }}>🌞</div>}
+                onColor='#fff'
+                offColor='#fff'
+                offHandleColor='#0556f3'
+                onHandleColor='#00AAF2'
+           />
+           {/* <Stack direction='row'>
+  <Switch colorScheme='red' />
+  <Switch colorScheme='teal' size='lg' />
+</Stack> */}
+        </div>
+    );
+};
+
+export default Toggle
