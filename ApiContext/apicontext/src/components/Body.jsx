@@ -1,12 +1,12 @@
 import React from 'react'
 import Cart from './Cart'
-import Products from './Products'
+// import Products from './Products'
 
 const Body = () => {
   return (
     <div>Body
-      {/* <Cart></Cart> */}
-                     <Products></Products>
+      <Cart></Cart>
+                     {/* <Products></Products> */}
     </div>
   )
 }

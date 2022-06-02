@@ -17,10 +17,11 @@ export const CartProvider = ({ children }) => {
       console.log("cannot buy without loggin");
     }
   };
-
-  return (
-    <CartContext.Provider value={{ count, addToCart, buy }}>
+// const value = {count,addToCart,buy}
+  return (<>
+    <CartContext.Provider value={ {count,addToCart,buy}}>
       {children}
     </CartContext.Provider>
+    </>
   );
 };

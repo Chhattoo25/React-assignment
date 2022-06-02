@@ -8,23 +8,30 @@ import Wishlist from "./Wishlist";
 
 const Navbar = () => {
   const { isAuth, login, logout } = useContext(AuthContext);
-  const { buy} = useContext(AuthContext);
-  const{isLight,toggleTheme}=useContext(ThemeContext)
+  const { buy } = useContext(AuthContext);
+  const { isLight, toggleTheme } = useContext(ThemeContext);
   return (
     <div>
+      Navbar:
+      <button
+        onClick={() => {
+          if (isAuth) logout();
+          else login("R", "Z");
+        }}
+      >
+        {isAuth ? "Logout" : "Login"}
+      </button>
 
- <button
- onClick={()=>{if(isAuth) logout();else login("R","Z")}}
- >{isAuth?"Logout":"Login"}</button>
-  <button
- onClick={buy}
- >Buy</button>
-   <button
- onClick={toggleTheme}
- >{`Make ${isLight?"Dark":"Light"}`}</button>
- {isAuth&&<Wishlist></Wishlist>}
- {/* <Toggle></Toggle> */}
 
+      <button onClick={buy}>Buy</button>
+
+      <button onClick={toggleTheme}>{`Make ${
+        isLight ? "Dark" : "Light"
+      }`}</button>
+
+
+     <Wishlist></Wishlist>
+      {/* <Toggle></Toggle> */}
     </div>
   );
 };

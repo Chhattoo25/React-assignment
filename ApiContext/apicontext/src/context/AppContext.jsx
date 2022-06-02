@@ -1,17 +1,17 @@
-import React from "react";
+import React,{createContext} from "react";
 
 import { useState } from "react";
 
 export const Appcontext = createContext();
 
-export const AppProvider = ({ children }) => {
+ const AppProvider = ({ children }) => {
   const [isAuth, setIsAuth] = useState(false);
   const [token, setToken] = useState("abcd");
-const login =(username,password)=>{
-  if (username && password) {
+const login =(username)=>{
+  
     setIsAuth(true);
     setToken(Date.now()+username)
-  }
+
 };
 
 const logout = () => {

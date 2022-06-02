@@ -3,7 +3,10 @@
   height: 100vh;
 }
 
+body{
+  background-color: teal;
 
+}
 .light{
   background-color: white;
   color:black
