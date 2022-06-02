@@ -1,19 +1,20 @@
 import React from "react";
 import { useContext } from "react";
-
+import { Button } from "@chakra-ui/react";
 import { AuthContext } from "../context/AuthContext";
 import { ThemeContext } from "../context/ThemeContext";
 import Wishlist from "./Wishlist";
 import Toggle from "./Toggle";
+import styles from "./Navbar.module.css"
 
 const Navbar = () => {
   const { isAuth, login, logout } = useContext(AuthContext);
   const { buy } = useContext(AuthContext);
   const { isLight, toggleTheme } = useContext(ThemeContext);
   return (
-    <div>
+    <div className={styles.nav}>
       Navbar:
-      <button
+      <button   className={styles.btn} 
         onClick={() => {
           if (isAuth) logout();
           else login("R", "Z");
@@ -23,15 +24,15 @@ const Navbar = () => {
       </button>
 
 
-      <button onClick={buy}>Buy</button>
+      <Button className={styles.btn} onClick={buy}>Buy</Button>
 
-      <button onClick={toggleTheme}>{`Make ${
+      <Button  className={styles.btn}  onClick={toggleTheme}>{`Make ${
         isLight ? "Dark" : "Light"
-      }`}</button>
+      }`}</Button>
 
 
-     <Wishlist></Wishlist>
       <Toggle toggleTheme={toggleTheme}></Toggle>
+     <Wishlist></Wishlist>
     </div>
   );
 };
