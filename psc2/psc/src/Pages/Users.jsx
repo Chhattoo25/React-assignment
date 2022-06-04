@@ -40,9 +40,9 @@ function Users() {
         <button disabled={page === 2} onClick={() => setPage(2)}>
           2
         </button>
-      </div>
+      </div >
       {data.map((item) => (
-        <div key={item.id}>
+        <div key={item.id} style={{display:"flex"}}>
           <img src={item.avatar} width="100px" alt={item.email} />
           <div>Name: {item.first_name}</div>
           <Link to={`/users/${item.id}`}>See More</Link>

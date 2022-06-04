@@ -21,7 +21,7 @@ const Pagination = () => {
   }, [page, limit]);
 
   return (
-    <div>
+    <div>Pagination:10000
       <div className="data">
       
         {todos.map((todo) => {
