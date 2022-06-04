@@ -1,0 +1,28 @@
+{
+                     "data": [
+                       {
+                         "name": "SmartPhone",
+                         "brand":"Nokia",
+                         "price": 30,
+                         "id": 1
+                       },
+                       {
+                         "name": "Watch",
+                          "brand":"Ghodi",
+                         "price": 20,
+                         "id": 2
+                       },
+                       {
+                         "name": "Shirt",
+                          "brand":"LeeCoper",
+                         "price": 50,
+                         "id": 3
+                       },
+                       {
+                         "name": "Pants",
+                          "brand":"Denim",
+                         "price": 100,
+                         "id": 4
+                       }
+                     ]
+}
