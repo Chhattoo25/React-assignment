@@ -1,0 +1,112 @@
+{
+                     "categories": [
+                       {
+                         "id": 1,
+                         "catname": "clothes",
+                         "subproducts": [
+                           {
+                             "id": 1,
+                             "name": "Men Regular Fit Solid Button D",
+                             "price": 499,
+                             "img": "https://rukminim1.flixcart.com/image/660/792/klicfww0/shirt/n/7/a/s-st2-vebnor-original-imagyhynxeezqumw.jpeg?q=50"
+                           },
+                           {
+                             "id": 2,
+                             "name": "Typography Men Round Neck",
+                             "price": 409,
+                             "img": "https://rukminim1.flixcart.com/image/660/792/kx9as280/t-shirt/v/x/y/m-mbh-try-this-original-imag9r92hsp7wh5u.jpeg?q=50"
+                           },
+                           {
+                             "id": 3,
+                             "name": "Printed Men Hooded Neck Black",
+                             "price": 199,
+                             "img": "https://rukminim1.flixcart.com/image/660/792/kl2mljk0/t-shirt/a/3/k/4xl-tblhdfulmask-lion-tripr-original-imagy9tcx7q25wym.jpeg?q=50"
+                           },
+                           {
+                             "id": 4,
+                             "name": "Self Design Men Round Neck Black",
+                             "price": 850,
+                             "img": "https://rukminim1.flixcart.com/image/660/792/l1mh7rk0/t-shirt/k/a/i/l-love-t-shirt-moonvelly-original-imagd5ghyhc8ukav.jpeg?q=50"
+                           },
+                           {
+                             "id": 5,
+                             "name": "Color Block Men Round Neck Gre",
+                             "price": 389,
+                             "img": "https://rukminim1.flixcart.com/image/660/792/kkfrjww0/t-shirt/h/1/t/l-t312-cgblwh-new-eyebogler-original-imafzs5hrjgzsfpr.jpeg?q=50"
+                           }
+                         ]
+                       },
+                       {
+                         "id": 2,
+                         "catname": "electronics",
+                         "subproducts": [
+                           {
+                             "id": 1,
+                             "name": "boAt Aavante Bar 2000 160 W ",
+                             "price": 9499,
+                             "img": "https://rukminim1.flixcart.com/image/312/312/k6fd47k0pkrrdj/speaker-refurbished/g/b/h/a-aavante-bar-1550-boat-original-imafk9gd9vmcgzxr.jpeg?q=70"
+                           },
+                           {
+                             "id": 2,
+                             "name": "SONY SA-D40 80 W Bluetooth Ho",
+                             "price": 5999,
+                             "img": "https://rukminim1.flixcart.com/image/416/416/jvv9zm80/speaker/home-audio-speaker/w/h/5/sony-sa-d40-original-imaffmj7jgmjdbu6.jpeg?q=70"
+                           },
+                           {
+                             "id": 3,
+                             "name": "Mi 3i 20000 mAh Power Bank (Fast Charging, 18W)",
+                             "price": 1999,
+                             "img": "https://rukminim1.flixcart.com/image/312/312/kfcv6vk0/power-bank/r/f/5/power-bank-20000-plm18zm-mi-original-imafvtc7x9zgrzbz.jpeg?q=70"
+                           },
+                           {
+                             "id": 4,
+                             "name": "Shailputri TM 18 Colour Changing Smart L",
+                             "price": 850,
+                             "img": "https://rukminim1.flixcart.com/image/312/312/knm2s280/smart-lighting/0/1/a/12-b22-base-indian-holder-music-bulb-18-colour-changing-music-original-imag297mh7gyqfxg.jpeg?q=70"
+                           },
+                           {
+                             "id": 5,
+                             "name": "JMMART Star Master Night Light (Multi color",
+                             "price": 389,
+                             "img": "https://rukminim1.flixcart.com/image/312/312/kddf6a80/table-lamp/v/g/h/star-master-night-light-projecto-um-64-unity-mart-original-imafuak6pqwwymsx.jpeg?q=70"
+                           }
+                         ]
+                       },
+                       {
+                         "id": 3,
+                         "catname": "Grocory",
+                         "subproducts": [
+                           {
+                             "id": 1,
+                             "name": "Tide Double Power Jasmine and Rose Detergent Powder 4 kg",
+                             "price": 129,
+                             "img": "https://rukminim1.flixcart.com/image/280/280/ktx9si80/washing-powder/c/1/i/plus-extra-power-jasmine-and-rose-tide-original-imag75zk9zfq9jyt.jpeg?q=70"
+                           },
+                           {
+                             "id": 2,
+                             "name": "Ghadi Detergent Powder 3 k",
+                             "price": 50,
+                             "img": "https://rukminim1.flixcart.com/image/280/280/k6b2snk0/laundry-detergent/n/a/8/detergent-powder-ghadi-original-imafzst8pwzshqfa.jpeg?q=70"
+                           },
+                           {
+                             "id": 3,
+                             "name": "Exo Touch & Shine Round Dishwash Bar",
+                             "price": 199,
+                             "img": "https://rukminim1.flixcart.com/image/280/280/k6nxrbk0/dish-washing-bar/n/c/t/touch-shine-round-2-1-4-exo-original-imafp2gwbmygunhg.jpeg?q=70"
+                           },
+                           {
+                             "id": 4,
+                             "name": "Flipkart Supermart Detergent Bar",
+                             "price": 120,
+                             "img": "https://rukminim1.flixcart.com/image/280/280/ktketu80/washing-bar/j/v/k/na-flipkart-supermart-original-imag6v7bpcvtp22d.jpeg?q=70"
+                           },
+                           {
+                             "id": 5,
+                             "name": "Flipkart Supermart Home Essentials Lavender, Sandal, Rose, Jasmine Blocksr",
+                             "price": 389,
+                             "img": "https://rukminim1.flixcart.com/image/280/280/khcb7gw0/air-freshener/h/z/h/300-air-freshener-blocks-bar-flipkart-supermart-home-essentials-original-imafxd9sbtgvau92.jpeg?q=70"
+                           }
+                         ]
+                       }
+                     ]
+                   }

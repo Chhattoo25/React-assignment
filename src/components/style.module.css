@@ -1,0 +1,25 @@
+.navdiv{
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-around;
+                     align-items: center;
+                     height:70px;
+                     box-sizing: border-box;
+                     box-shadow: 4px 5px 15px rebeccapurple;
+}
+.navdiv img{
+                     width:50px
+}
+.productdiv{
+                     height: 600px;
+}
+.footerdiv{
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-around;
+                     align-items: center;
+                     height:70px;
+                     box-sizing: border-box;
+                     box-shadow: 4px 5px 15px rebeccapurple;
+
+}
