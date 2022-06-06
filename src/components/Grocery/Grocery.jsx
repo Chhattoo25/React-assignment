@@ -14,7 +14,7 @@ const Grocery = () => {
   }, []);
   return (
     <div>
-      Electronics
+      Electronics Item
       {data.map((el) => {
         return (
           <div key={el.id}>
